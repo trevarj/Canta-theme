@@ -1312,8 +1312,8 @@ headerbar {
     .fullscreen & { box-shadow: none; }
 
     button.titlebutton {
-      min-height: 16px;
-      min-width: 16px;
+      min-height: 24px;
+      min-width: 24px;
       margin: 0 2px;
       padding: 0;
     }
@@ -3654,8 +3654,8 @@ headerbar,
 
       @at-root %windows_button,
       &.close, &.maximize, &.minimize { // -gtk-icon-source:
-        min-width: 12px;
-        min-height: 12px;
+        min-width: 24px;
+        min-height: 24px;
         padding: 0;
         margin: 0 2px;
         color: transparent;
